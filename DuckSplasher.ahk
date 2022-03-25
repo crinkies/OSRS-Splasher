@@ -23,9 +23,9 @@ UrlDownloadToFile, https://i.imgur.com/f16IMeZ.png, % Background3 := A_Temp "\te
 UrlDownloadToFile, https://i.imgur.com/We0ZnGR.png, % Background4 := A_Temp "\temp_pic5"
 UrlDownloadToFile, https://i.imgur.com/RfpCsgy.png, % Background5 := A_Temp "\temp_pic6"
 UrlDownloadToFile, https://i.imgur.com/175Ryah.png, % Background6 := A_Temp "\temp_pic7"
-UrlDownloadToFile, https://i.imgur.com/OAotfRh.png, % Background7 := A_Temp "\temp_pic8"
+UrlDownloadToFile, https://i.imgur.com/sGKiYm4.png, % Background7 := A_Temp "\temp_pic8"
 
-Gui, Add, Pic, x115 y30 w230 h35, % Background7
+Gui, Add, Pic, x115 y27 w230 h38, % Background7
 Gui, Add, Pic, x370 y10 h60 w70, % Duck
 Gui, Tab, Extra
 Gui, Add, GroupBox, x11 y30 w415 h75, Extra
