@@ -7,7 +7,7 @@ gui, Color, 9CD9EB
 
 Gui, Add, Tab3, x0 y0 w435 h154, Main|Extra|About
 Gui, Tab, Main
-Gui, Add, GroupBox, x8 y18 w350 h50 c0000FF,
+Gui, Add, GroupBox, x8 y18 w350 h50,
 Gui, Add, Button, x1 y69 w430 h40 vbutton_1, OK
 Gui, Font, cRed
 Gui, Add, DropDownList, x12 y26 w50 h500 vtime_1, 1||2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19
