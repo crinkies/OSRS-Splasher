@@ -11,7 +11,7 @@ In the future I may add support for PixelSearch, auto-attack, and auto-login.
 Login to your account and start splashing then run this script. Use this to circumvent the logout timer.
 
 
-![Alt text](https://i.imgur.com/JiYYvov.png "DuckSplasher")
+![Alt text](https://i.imgur.com/MTe5bwC.png "DuckSplasher")
 
 In this image I have the top column set from 9-14 minutes, and the bottom to 11-23.
 
