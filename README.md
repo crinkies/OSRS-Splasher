@@ -2,9 +2,14 @@
 
 A splashing script for the RuneLite client of Old School Runescape that I created while exploring AutoHotKey.
 
-I'm releasing it as I've since moved on from RuneScape.
+I'm releasing it as I've since moved on from AutoHotKey to Python. 
+
+In the future I may add support for PixelSearch, auto-attack, and auto-login.
 
 # How to use:
+
+Login to your account and start splashing then run this script. Use this to circumvent the logout timer.
+
 
 ![Alt text](https://i.imgur.com/JiYYvov.png "DuckSplasher")
 
@@ -32,5 +37,6 @@ Cheating on RuneScape *IS* against the rules, so use it at your own risk. Howeve
 
 ![Alt text](https://i.imgur.com/uLMtg06.png "DuckSplasher")
 
-Some known bugs:
+Known bugs:
 Keystrokes label sometimes sticks.
+
