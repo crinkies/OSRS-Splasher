@@ -25,7 +25,7 @@ The second set of variables are optional but act as a sort of anti-ban to make t
 
 You can set extra delay and options to minimize RuneLite in the Extra tab aswell as choose to use randomized lowercase letters as input while splashing instead of the default backspace.
 
-Oh and I'd recommend using VirtualBox while using this. The script is pretty unobtrusive but you can only run one RuneLite client while it runs.
+I'd recommend using VirtualBox while using this. The script is pretty unobtrusive but you can only run one RuneLite client while it runs.
 
 # Will I get banned?
 
