@@ -201,7 +201,7 @@ SoundBeep, 750, 20
 }
 Gui, Tab, Main
 Gui, Font, cWhite s17,
-Gui, Add, Text, x140 y70 w150 h40, %L1%
+Gui, Add, Text, x145 y70 w150 h40, %L1%
 Gui, Font
 return
 
