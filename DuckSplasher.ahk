@@ -18,7 +18,7 @@ Gui, Show, x640 y400 h110 w434, DuckSplasher - Press F1 to begin.
 
 UrlDownloadToFile, https://i.imgur.com/r2u9zgH.jpg, % Duck := A_Temp "\temp_pic"
 UrlDownloadToFile, https://i.imgur.com/rhKL6BP.png, % Background := A_Temp "\temp_pic2"
-UrlDownloadToFile, https://i.imgur.com/ObSdYaT.png, % Background2 := A_Temp "\temp_pic3"
+UrlDownloadToFile, https://i.imgur.com/4pgswom.png, % Background2 := A_Temp "\temp_pic3"
 UrlDownloadToFile, https://i.imgur.com/f16IMeZ.png, % Background3 := A_Temp "\temp_pic4"
 UrlDownloadToFile, https://i.imgur.com/We0ZnGR.png, % Background4 := A_Temp "\temp_pic5"
 UrlDownloadToFile, https://i.imgur.com/RfpCsgy.png, % Background5 := A_Temp "\temp_pic6"
