@@ -1,6 +1,6 @@
 # DuckSplasher
 
-A splashing script for the RuneLite client of Old School Runescape that I created while exploring AutoHotKey.
+A splashing script for the RuneLite client of Old School Runescape that I created while exploring and learning AutoHotKey.
 
 I'm releasing it as I've since moved on from AutoHotKey to Python. 
 
