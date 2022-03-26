@@ -17,7 +17,7 @@ Gui, Add, DropDownList, x62 y46 w50 h500 vtime_4, 3||4|5|6|7|8|9|10|11|12|12|14|
 Gui, Show, x640 y400 h110 w434, DuckSplasher - Press F1 to begin.
 
 UrlDownloadToFile, https://i.imgur.com/r2u9zgH.jpg, % Duck := A_Temp "\temp_pic"
-UrlDownloadToFile, https://i.imgur.com/rhKL6BP.png, % Background := A_Temp "\temp_pic2"
+UrlDownloadToFile, https://i.imgur.com/pcjZ6n4.png, % Background := A_Temp "\temp_pic2"
 UrlDownloadToFile, https://i.imgur.com/4pgswom.png, % Background2 := A_Temp "\temp_pic3"
 UrlDownloadToFile, https://i.imgur.com/f16IMeZ.png, % Background3 := A_Temp "\temp_pic4"
 UrlDownloadToFile, https://i.imgur.com/We0ZnGR.png, % Background4 := A_Temp "\temp_pic5"
@@ -95,8 +95,8 @@ return
  
 F1::
 KeyWait, F1
-TRunning := !TRunning
-If (!TRunning)
+is_running := !is_running
+If (!is_running)
 {  MsgBox, Already running!
 reload
 return
@@ -116,7 +116,7 @@ If (time_1 > time_2)
 MsgBox, You must enter a valid variable!
 ExitApp
 }
-If (TRunning)
+If (is_running)
 {   
 Random, x, %time_1%, %time_2%
 x := (x * 60 * 1000)
@@ -150,7 +150,7 @@ If (time_3 > time_4)
 MsgBox, You must enter a valid variable!
 ExitApp
 }
-If (TRunning)
+If (is_running)
 {   
 Random, x, %time_3%, %time_4%
 x := (x * 60 * 1000)
