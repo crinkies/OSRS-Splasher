@@ -33,7 +33,7 @@ Cheating on RuneScape *IS* against the rules, so use it at your own risk. Howeve
 
 # Additional
 
-![Alt text](https://i.imgur.com/IAFz2Yg.png "DuckSplasher")
+![Alt text](https://i.imgur.com/QWwElPu.png "DuckSplasher")
 
 ![Alt text](https://i.imgur.com/uLMtg06.png "DuckSplasher")
 
