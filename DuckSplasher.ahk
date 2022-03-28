@@ -200,8 +200,8 @@ If beep_1 = 1
 SoundBeep, 750, 20
 }
 Gui, Tab, Main
-Gui, Font, cWhite s17,
-Gui, Add, Text, x145 y70 w20 h40, %L1%
+Gui, Font, cWhite s12,
+Gui, Add, Text, x145 y75 w20 h40, %L1%
 Gui, Font
 return
 
