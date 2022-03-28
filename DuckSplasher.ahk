@@ -38,7 +38,7 @@ Gui, Font, cBlue
 Gui, Add, CheckBox, x15 y83 w100 h20 vextra_delay, Use extra delay?
 Gui, Add, CheckBox, x120 y83 w120 h20 vminimize_1, Minimize RuneLite?
 Gui, Add, CheckBox, x240 y60 w150 h20 vlowercase_let, Use lowercase letters?
-Gui, Add, Button, x400 y40 w20 h20 gbutton_2, ?
+Gui, Add, Button, x400 y60 w20 h20 gbutton_2, ?
 Gui, Add, CheckBox, x240 y40 w120 h20 vbeep_1, Beep on keypress?
 
 Gui, Add, CheckBox, x240 y81 w160 h20 vvariables_1, Use second set of variables?
