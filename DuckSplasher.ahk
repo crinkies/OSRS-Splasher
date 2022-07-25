@@ -85,6 +85,7 @@ GuiControl, hide, time_2
 GuiControl, hide, time_3
 GuiControl, hide, time_4
 
+
 IfWinNotExist, ahk_exe Runelite.exe ;Also known as SunAwtFrame. Edit if not working.
 {
 Gosub, check_runelite
@@ -141,7 +142,7 @@ SetTimer, TimerF1, -%x%
 }
 If minimize_1 = 1
 WinMinimize, RuneLite
-GoSub add_value
+gosub add_value
 return
  
 TimerF2:
@@ -175,7 +176,7 @@ SetTimer, TimerF2, -%x%
 }
 If minimize_1 = 1
 WinMinimize, RuneLite
-GoSub add_value
+gosub add_value
 return
  
 gui_2:
@@ -185,8 +186,11 @@ GuiControl, Hide, button_1
 Gui, Add, Button, x175 y69 w255 h40 , STOP
 Gui, Add, Pic, x15 y30 w320 h35, % Background
 Gui, Add, Pic, x1 y75 w140 h33, % Background2
+Gui, Font, cWhite s12,
+Gui, Add, Text, x145 y75 w20 h40 vL1, %L1%
 Gui, Font
 return
+
 
 check_runelite:
 MsgBox, Please load RuneLite!
@@ -195,14 +199,11 @@ return
 
 add_value:
 L1++
+GuiControl,, L1, %L1%
 If beep_1 = 1
 {
 SoundBeep, 750, 20
 }
-Gui, Tab, Main
-Gui, Font, cWhite s12,
-Gui, Add, Text, x145 y75 w20 h40, %L1%
-Gui, Font
 return
 
 ButtonStop:
