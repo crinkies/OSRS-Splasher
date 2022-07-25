@@ -180,7 +180,7 @@ gosub add_value
 return
  
 gui_2:
-Gui, Show, x640 y400 h110 w434
+Gui, Show, x640 y400 h110 w434,  Splashing between: %time_1%-%time_2% and %time_3%-%time_4% minutes.
 Gui, Tab, Main
 GuiControl, Hide, button_1
 Gui, Add, Button, x175 y69 w255 h40 , STOP
