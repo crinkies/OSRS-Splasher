@@ -26,6 +26,3 @@ You can set extra delay and options to minimize RuneLite in the Extra tab aswell
 
 ![Alt text](https://i.imgur.com/uLMtg06.png "DuckSplasher")
 
-Known bugs:
-Keystrokes label sometimes sticks.
-
