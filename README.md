@@ -22,7 +22,9 @@ The second set of variables are optional but act as anti-ban.
 You can set extra delay and options to minimize RuneLite in the Extra tab aswell as choose to use randomized lowercase letters as input while splashing instead of the default backspace.
 
 
-# Additional
+#  ToDo
 
-![Alt text](https://i.imgur.com/uLMtg06.png "DuckSplasher")
+Add auto login
+XP drop failsafe
+Auto attack NPC
 
