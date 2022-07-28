@@ -25,6 +25,8 @@ You can set extra delay and options to minimize RuneLite in the Extra tab aswell
 #  ToDo
 
 Add auto login
+
 XP drop failsafe
+
 Auto attack NPC
 
