@@ -1,32 +1,25 @@
 # OSRS Splasher
 
-A splashing script for the RuneLite client of Old School Runescape that I created while exploring and learning AutoHotKey.
+A splashing script for the RuneLite client of Old School Runescape I created while exploring and learning AutoHotkey.
 
-# How to use:
+**Features:**
 
-Login to your account and start splashing then run this script. Use this to circumvent the logout timer.
+- auto login
+- NPC auto attack
+- extra anticheat
+- multiple splashing timers
+- disconnect failsafes
 
-
-![Alt text](https://i.imgur.com/jiuT1sJ.png "DuckSplasher")
-
-In this image I have the top column set from 9-14 minutes, and the bottom to 11-23.
-
-After selecting the variables from the first and second (optional) column, click OK to load them, then press F1.
-
-
-![Alt text](https://i.imgur.com/ItVdK2c.png "DuckSplasher")
-
-
-The second set of variables are optional but act as anti-ban.
-
-You can set extra delay and options to minimize RuneLite in the Extra tab aswell as choose to use randomized lowercase letters as input while splashing instead of the default backspace.
-
+# Preview:
+![alt text](https://i.imgur.com/2TIQ2Yr.png)
 
 #  To Do
 
-Add auto login
+- [x] add auto login
+- [x] npc auto attack
+- [x] check for runes
+- [x] second timer and extra delays
 
-XP drop failsafe
 
-Auto attack NPC
+	**All done! Whoohoo!**
 
