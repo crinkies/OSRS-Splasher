@@ -707,45 +707,45 @@ return
 
 orient:
 
-L2 := "orient"
-GuiControl,, L2, %L2%
+   L2 := "orient"
+   GuiControl,, L2, %L2%
 
-random, rand, 20, 50
-loop, 50
-{
-send {Wheelup}
-sleep, rand
-}
-sleep, 500
-loop, 15
-{
-send {Wheeldown}
-sleep, rand
-}
-loop, 30
-{
-send {PgDn}
-sleep, rand
-}
-loop, 30
-{
-send {PgUp}
-sleep, rand
-}
-random, rand, 1000, 1200
-sendinput {Down %rand%}
-sleep, 500
-sendinput {Up %rand%}
-random, rand, 800, 1000
-random, choice, 1, 2
-if choice = 1
-{
-sendinput {right %rand%}
-}
-else if choice = 2
-{
-sendinput {left %rand%}
-}
+   random, rand, 20, 50
+   loop, 50
+   {
+      send {Wheelup}
+      sleep, rand
+   }
+      sleep, 500
+   loop, 15
+   {
+     send {Wheeldown}
+      sleep, rand
+   }
+   loop, 30
+   {
+      send {PgDn}
+      sleep, rand
+   }
+   loop, 30
+   {
+      send {PgUp}
+      sleep, rand
+   }
+   random, rand, 1000, 1200
+   sendinput {Down %rand%}
+   sleep, 500
+   sendinput {Up %rand%}
+   random, rand, 800, 1000
+   random, choice, 1, 2
+   if choice = 1
+   {
+      sendinput {right %rand%}
+   }
+   else if choice = 2
+   {
+      sendinput {left %rand%}
+   }
 return
 
 ;########## Splashing timers ##########
