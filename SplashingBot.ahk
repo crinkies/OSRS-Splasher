@@ -753,7 +753,7 @@ return
 TimerF1:
    x = 0
    var1 := (time_1 * 60 * 1000)
-   var2:= (time_2 * 60 * 1000)
+   var2 := (time_2 * 60 * 1000)
    If (time_1 > time_2)
    {
       MsgBox, You must enter a valid variable!
@@ -795,7 +795,7 @@ TimerF2:
    }
    If (is_running)
    {
-      Random, x, %var4%, %var4%
+      Random, x, %var3%, %var4%
       WinActivate, RuneLite
       If extra_delay = 1
       {
