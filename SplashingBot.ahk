@@ -546,7 +546,9 @@ logged_in:
    GuiControl,, L2, %L2%
    Sleep, rand_sleep_md
 
-   PixelSearch, FoundX, FoundY, 0, 0, w, h, %color_2%, 0, Fast RGB
+   SysGet, VirtualScreenWidth, 78
+   SysGet, VirtualScreenHeight, 79
+   PixelSearch, FoundX, FoundY, 0, 0, VirtualScreenWidth, VirtualScreenHeight, %color_2%, 0, Fast RGB
    
    ;########## set GUI ##########
 
@@ -725,29 +727,35 @@ orient:
      send {Wheeldown}
       sleep, rand
    }
-   loop, 30
+   random, rand, 75, 100
+   loop, %rand%
    {
-      send {PgDn}
-      sleep, rand
+      send {Down down}
    }
-   loop, 30
-   {
-      send {PgUp}
-      sleep, rand
-   }
-   random, rand, 1000, 1200
-   sendinput {Down %rand%}
+      send {Down up}
    sleep, 500
-   sendinput {Up %rand%}
-   random, rand, 800, 1000
+   loop, %rand%
+   {
+      send {Up down %rand%}
+   }
+      send {Up up}
+   random, rand, 50, 75
    random, choice, 1, 2
    if choice = 1
    {
-      sendinput {right %rand%}
+      loop, %rand%
+      {
+         send {rightdown}
+      }
+         send {rightup}
    }
    else if choice = 2
    {
-      sendinput {left %rand%}
+      loop, %rand%
+      {
+         sendinput {leftdown}
+      }
+         send {leftup}
    }
 return
 
