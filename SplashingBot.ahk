@@ -41,7 +41,7 @@ FileInstall, GUI\IMAGE_06.png, %image_06%, 1
 
 Gui, Add, Tab, x0 y0 w435 h154 vtab, Main|User/NPC Settings|Extra|About
 Gui, Tab, Main
-Gui, Add, Button, x112 y67 w319 h40 vbutton_1, OK
+Gui, Add, Button, x112 y69 w319 h40 vbutton_1, OK
 Gui, Add, Button, x10 y87 w50 h20 gbutton_7 vbutton_7, Set
 Gui, Font, cBlue
 gui, add, checkbox, x10 y67 h20 w100 gcheck vcheck, Set splash time?
@@ -542,24 +542,27 @@ logged_in:
 
    ;########## check for inventory tag hex ##########
 
+   L2 := "inventory"
+   GuiControl,, L2, %L2%
+   Sleep, rand_sleep_md
+
    PixelSearch, FoundX, FoundY, 0, 0, w, h, %color_2%, 0, Fast RGB
    
    ;########## set GUI ##########
 
-   L2 := "inventory"
-   GuiControl,, L2, %L2%
-
    ;########## no runes error ##########
-
-   Sleep, rand_sleep_md
 
    If ErrorLevel = 1
    {
-      Error := "DISCONNECTED"
+      Error := "NO RUNES"
       GuiControl,, Error, %Error%
-      gosub, timer_off
-   }else  {
-
+      quit_program := 1
+      settimer, login, OFF
+      settimer, run_time, OFF
+      settimer, TimerF1, OFF
+   }
+   Else If ErrorLevel = 0
+   {
       Sleep, rand_sleep_md
 
       ;########## backspace in chat to prevent password leak ##########
@@ -824,7 +827,7 @@ gui_2:
    Gui, Show, x0 y0 h110 w434,  Splashing between: %time_1%-%time_2% and %time_3%-%time_4% minutes.
    Gui, Tab, Main
    GuiControl, Hide, button_1
-   Gui, Add, Button,  x1 y69 w430 h40 vquit_button, STOP
+   Gui, Add, Button,  x3 y69 w428 h40 vquit_button, STOP
    Gui, Font, cBlue s11,
    Gui, Add, GroupBox, x8 y20 w350 h50, Info
    Gui, Add, Text, x15 y34 w75 h15 vlabel_1, Keystrokes:
