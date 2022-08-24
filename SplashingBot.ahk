@@ -745,17 +745,17 @@ orient:
    {
       loop, %rand%
       {
-         send {rightdown}
+         send {right down}
       }
-         send {rightup}
+         send {right up}
    }
    else if choice = 2
    {
       loop, %rand%
       {
-         sendinput {leftdown}
+         sendinput {left down}
       }
-         send {leftup}
+         send {left up}
    }
 return
 
