@@ -19,7 +19,3 @@ A splashing script for the RuneLite client of Old School Runescape I created whi
 - [x] npc auto attack
 - [x] check for runes
 - [x] second timer and extra delays
-
-
-	**All done! Whoohoo!**
-
