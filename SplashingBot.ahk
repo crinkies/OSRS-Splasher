@@ -39,7 +39,7 @@ FileInstall, GUI\IMAGE_06.png, %image_06%, 1
 
 ;########## main ##########
 
-Gui, Add, Tab, x0 y0 w435 h154 vtab, Main|User/NPC Settings|Extra|About
+Gui, Add, Tab, x0 y0 w435 h154 vtab, Main|User/NPC Settings|Extra|About|How To Use
 Gui, Tab, Main
 Gui, Add, Button, x112 y69 w319 h40 vbutton_1, OK
 Gui, Add, Button, x10 y87 w50 h20 gbutton_7 vbutton_7, Set
@@ -125,6 +125,14 @@ Gui, Add, Pic, x230 y40 w25 h25, %image_03%
 Gui, Add, Link, x142 y75 w50 h20 cGreen, <a href="www.VirtualBox.org">Click here</a>
 Gui, Add, Pic, x290 y75 w25 h25, %image_04%
 Gui, Add, Pic, x190 y65 w100 h30, %image_05%
+return
+
+;########## how to use ##########
+
+Gui, Tab, How To Use
+Gui, Add, GroupBox, x11 y30 w415 h75 , How To Use
+Gui, Add, GroupBox, x120 y50 w170 h35
+Gui, Add, Link, x152 y65 w130 h15 cGreen, <a href="https://htmlpreview.github.io/?https://github.com/crinkies/OSRS-Splasher/blob/main/Instructions.html">Click for instructions.</a>
 return
 
 
