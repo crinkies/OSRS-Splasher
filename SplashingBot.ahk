@@ -85,7 +85,7 @@ Gui, Add, Text, x310 y90 w100 h20, Npc clicks?
 Gui, Add, Button, x280 y90 w20 h20 vclick_amount gbutton_8, 3 
 Gui, Add, Button, x273 y65 w10 h20 gpix_grab1, >
 Gui, Add, Button, x191 y65 w10 h20 gpix_grab2, >
-Gui, Add, DropDownList, x140 y65 w50 h500 vinventory_1, ESC||F1|F2|F3|F4|F5
+Gui, Add, DropDownList, x140 y65 w50 h500 vinventory_1, F2||ESC|F1|F2|F3|F4|F5
 Gui, Add, GroupBox, x270 y30 w156 h60, NPC
 Gui, Font, cRed
 Gui, Add, Text, x277 y45 w100 h20, HEX color
@@ -125,7 +125,6 @@ Gui, Add, Pic, x230 y40 w25 h25, %image_03%
 Gui, Add, Link, x142 y75 w50 h20 cGreen, <a href="www.VirtualBox.org">Click here</a>
 Gui, Add, Pic, x290 y75 w25 h25, %image_04%
 Gui, Add, Pic, x190 y65 w100 h30, %image_05%
-return
 
 ;########## how to use ##########
 
